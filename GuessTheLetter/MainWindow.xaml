@@ -1,0 +1,326 @@
+﻿<Window x:Class="GuessTheLetter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuessTheLetter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="600">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="50"/>
+        </Style>
+        
+    </Window.Resources>
+    <StackPanel >
+
+        <UniformGrid Rows="7" Columns="4" Height="auto">
+
+            <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="A" >
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Б">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>    
+            <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="В">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Г">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Д">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="Е">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="Ё">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Ж">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="З">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="И">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Й">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="К">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Л">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="М">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Н">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="О">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="П">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Р">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="С">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Т">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="У">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Ф">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Х">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Ц">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+              <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Ч">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+              <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Ш">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+              <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Blue" Content="Щ">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+              <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Green" Content="ъ">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+
+        </UniformGrid>
+        <UniformGrid Rows="1" Columns="5" Height="auto">
+            <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="ы">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+                        <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Green" Content="ь">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="Я">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="Ю">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="30" >
+                <Button Click="Button_Click" Foreground="Red" Content="Я">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="30"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Border>
+        </UniformGrid>
+
+    </StackPanel>
+
+
+</Window>
