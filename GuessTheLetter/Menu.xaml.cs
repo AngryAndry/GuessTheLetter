@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -17,16 +16,23 @@ using System.Windows.Shapes;
 namespace GuessTheLetter
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для Menu.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Menu : Page
     {
-        public MainWindow()
+        public Menu()
         {
             InitializeComponent();
-            MainFrame.Content = new Menu();
         }
 
-   
+        private void Button_A(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Page1());
+        }
+
+        private void Button_Guess(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Guess());
+        }
     }
 }

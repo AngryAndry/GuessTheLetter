@@ -38,7 +38,7 @@ namespace GuessTheLetter
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Page2());
+            NavigationService.Navigate(new Menu());
 
             /*
             Window1.Owner = this;
